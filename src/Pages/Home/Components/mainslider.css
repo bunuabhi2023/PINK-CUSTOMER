@@ -1,0 +1,26 @@
+.swiper-button-prev , .swiper-button-next{
+
+
+    --swiper-navigation-size: 12px;
+    padding: 24px 24px;
+
+    border-radius: 100%;
+    color: rgba(255, 141, 203, 1)  !important;
+    background: linear-gradient(0deg, #F3F9FB, #F3F9FB),
+linear-gradient(0deg, #FFFFFF, #FFFFFF);
+
+--swiper-navigation-color: rgba(255, 141, 203, 1) ;
+font-weight: 900;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
+    .swiper-button-prev , .swiper-button-next{
+        display: none;
+    }
+}

@@ -1,0 +1,36 @@
+.sidebar-box {
+    width: 25%;
+    padding: 1%;
+    border-right: 1px solid rgb(195, 193, 193);
+}
+.main-box {
+    width: 75%;
+    padding: 1%;
+}
+.show-drawer {
+    display: none;
+}
+
+@media all and (min-width: 371px) and (max-width: 550px) {
+    .sidebar-box {
+        width: 30%;
+    }
+    .main-box {
+        width: 70%;
+    }
+}
+
+@media all and (min-width: 261px) and (max-width: 370px) {
+    .sidebar-box {
+        width: 40%;
+        display: none;
+    }
+    .main-box {
+        width: 100%;
+    }
+    .show-drawer {
+        display: flex;
+    }
+}
+
+
